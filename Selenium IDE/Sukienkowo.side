@@ -1,0 +1,244 @@
+{
+  "id": "4fc04b53-a961-4448-9a94-e499cd9ea62d",
+  "version": "2.0",
+  "name": "Sukienkowo",
+  "url": "https://sukienkowo.com",
+  "tests": [{
+    "id": "f5633368-ed1b-40a5-b8b1-7a7c153bd3dc",
+    "name": "Sukienkowo ",
+    "commands": [{
+      "id": "18768559-8e29-4e3c-a25f-4bea244db8c8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fac19f0b-cb2b-4b0c-9792-1470f364a51a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "714x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e09452e3-071a-4e24-a92f-f2e4443f772d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iconsfront:nth-child(1) img",
+      "targets": [
+        ["css=.iconsfront:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Sukienki na wesele 2021']", "xpath:img"],
+        ["xpath=//img[@type='image/webp']", "xpath:attributes"],
+        ["xpath=//div[8]/div/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d508e2f4-7e02-4667-b146-c9b397fbf208",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icodiv > img",
+      "targets": [
+        ["css=.icodiv > img", "css:finder"],
+        ["xpath=//img[@alt='Zobacz ulubione']", "xpath:img"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa5abcd8-f916-4c19-b3d1-a4b89b583dae",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a:nth-child(6) > .icodiv",
+      "targets": [
+        ["css=a:nth-child(6) > .icodiv", "css:finder"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d40ee14-ad4f-4212-9664-1ae31c87d214",
+      "comment": "",
+      "command": "click",
+      "target": "id=dd2214",
+      "targets": [
+        ["id=dd2214", "id"],
+        ["name=dd2214", "name"],
+        ["css=#dd2214", "css:finder"],
+        ["xpath=//button[@id='dd2214']", "xpath:attributes"],
+        ["xpath=//td/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91e2b760-2693-4988-98f7-9b909058065a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icodiv > img",
+      "targets": [
+        ["css=.icodiv > img", "css:finder"],
+        ["xpath=//img[@alt='Zobacz ulubione']", "xpath:img"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad63afd4-5be8-45b1-ba09-623f169f7841",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mobilelogo",
+      "targets": [
+        ["css=.mobilelogo", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df1f4462-63ca-4218-81b1-47d34bb198bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuBarOpen > img",
+      "targets": [
+        ["css=#menuBarOpen > img", "css:finder"],
+        ["xpath=//img[@alt='Menu Kolekcji']", "xpath:img"],
+        ["xpath=//button[@id='menuBarOpen']/img", "xpath:idRelative"],
+        ["xpath=//button[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9978935b-bd2a-4fb6-acce-5d66aa3d71c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuOptionOpen > img",
+      "targets": [
+        ["css=#menuOptionOpen > img", "css:finder"],
+        ["xpath=//img[@alt='Menu Opcji']", "xpath:img"],
+        ["xpath=//button[@id='menuOptionOpen']/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ed95757-f0b2-479d-9696-b36176fb44e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuOption > .toptopleft > a:nth-child(1) img",
+      "targets": [
+        ["css=#menuOption > .toptopleft > a:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Logowanie lub Rejestracja']", "xpath:img"],
+        ["xpath=//div[@id='menuOption']/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "918aa6c7-8d44-4906-a492-905aa1e19067",
+      "comment": "",
+      "command": "click",
+      "target": "name=_go_log",
+      "targets": [
+        ["name=_go_log", "name"],
+        ["css=.gx", "css:finder"],
+        ["xpath=//input[@name='_go_log']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf15dc25-325a-4e10-997d-b0c5ce2870a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btnlinkgreen",
+      "targets": [
+        ["css=.btnlinkgreen", "css:finder"],
+        ["xpath=//div[8]/div[2]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f66eabd-e507-4f10-a3f0-d5cb47935387",
+      "comment": "",
+      "command": "click",
+      "target": "name=reg[repass]",
+      "targets": [
+        ["name=reg[repass]", "name"],
+        ["css=.frow:nth-child(3) .inputs", "css:finder"],
+        ["xpath=//input[@name='reg[repass]']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ee69c60-380d-4cd0-a56c-d7be5dc17fad",
+      "comment": "",
+      "command": "click",
+      "target": "name=reg[name]",
+      "targets": [
+        ["name=reg[name]", "name"],
+        ["css=.frow:nth-child(4) .inputs", "css:finder"],
+        ["xpath=//input[@name='reg[name]']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "410ac482-840f-4ef8-a752-6193ef0930da",
+      "comment": "",
+      "command": "type",
+      "target": "name=reg[name]",
+      "targets": [
+        ["name=reg[name]", "name"],
+        ["css=.frow:nth-child(4) .inputs", "css:finder"],
+        ["xpath=//input[@name='reg[name]']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "2345"
+    }, {
+      "id": "ff98359d-5a28-4851-9e1b-e4e2e5fa2ae5",
+      "comment": "",
+      "command": "click",
+      "target": "name=reg[surname]",
+      "targets": [
+        ["name=reg[surname]", "name"],
+        ["css=.frow:nth-child(5) .inputs", "css:finder"],
+        ["xpath=//input[@name='reg[surname]']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4f2e832-7eb3-409a-968a-a994eb6bf75b",
+      "comment": "",
+      "command": "type",
+      "target": "name=reg[surname]",
+      "targets": [
+        ["name=reg[surname]", "name"],
+        ["css=.frow:nth-child(5) .inputs", "css:finder"],
+        ["xpath=//input[@name='reg[surname]']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "678"
+    }, {
+      "id": "0982e0b5-a558-4764-851c-5e1b363c578d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=_go_reg",
+      "targets": [
+        ["name=_go_reg", "name"],
+        ["css=.gx", "css:finder"],
+        ["xpath=//input[@name='_go_reg']", "xpath:attributes"],
+        ["xpath=//div[15]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e058574-2473-48c1-bc0b-073a29bd18e5",
+      "comment": "",
+      "command": "click",
+      "target": "name=_go_reg",
+      "targets": [
+        ["name=_go_reg", "name"],
+        ["css=.gx", "css:finder"],
+        ["xpath=//input[@name='_go_reg']", "xpath:attributes"],
+        ["xpath=//div[15]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fd52ce9c-f950-44cf-8869-5b2512775576",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f5633368-ed1b-40a5-b8b1-7a7c153bd3dc"]
+  }],
+  "urls": ["https://sukienkowo.com/"],
+  "plugins": []
+}
