@@ -1,0 +1,111 @@
+﻿"ID","Title","Created By","Created On","Estimate","Forecast","Priority","References","Section","Section Depth","Section Description","Steps","Steps (References)","Suite","Suite ID","Type","Updated By","Updated On"
+"C1","Rejestracja - poprawne dane","Justyna Ulicka","2022-09-23 16:49","","","High","","Sukienkowo","0","","1. Uzupełnij puste pola wpisując odpowiednie wartości 
+
+
+Expected Result:
+W polach znajduję się tekst kt&oacute;ry wpisaliśmy
+2. Zaznacz typ klienta ""prywatny""
+Expected Result:
+Kropka obok ""prywatny"" wypełniona jest czarnym kolorem
+3. Kliknij przycisk Zał&oacute;ż konto
+Expected Result:
+Użytkownik został poprawnie zarejestrowany","1. 
+2. 
+3.","Master","S2","Acceptance","Justyna Ulicka","2022-09-24 16:59"
+"C2","Rejestracja - brak danych","Justyna Ulicka","2022-09-23 17:13","","","High","","Sukienkowo","0","","1. Przy pustych polach kliknij przycisk Zał&oacute;ż konto
+Expected Result:
+Pojawia się alert o braku wypełnionych p&oacute;l","1.","Master","S2","Functional","Justyna Ulicka","2022-09-24 16:59"
+"C3","Rejestracja - niepoprawny format hasła","Justyna Ulicka","2022-09-23 17:26","","","High","","Sukienkowo","0","","1. W pole hasło wpisz ""a"" i kliknij przycisk Zał&oacute;ż konto
+Expected Result:
+Pojawia się alert o niepoprawnym formacie hasła i informacja o wymaganiach kt&oacute;re musi spełniać hasło","1.","Master","S2","Functional","Justyna Ulicka","2022-09-24 16:59"
+"C4","Rejestracja - cyfry w polu ""imię"" i ""nazwisko""","Justyna Ulicka","2022-09-23 19:32","","","Medium","","Sukienkowo","0","","1. W polu imię wpisz ""2345""
+Expected Result:
+W polu ""imię"" wyświetlają się cyfry 2345
+2. W polu nazwisko wpisz ""678""
+Expected Result:
+W polu ""nazwisko"" wyświetlają się cyfry 678
+3. Kliknij przycisk Zał&oacute;ż konto
+Expected Result:
+Wyświetla się alert o błędnym formacie w polu ""imię"" i ""nazwisko""","1. 
+2. 
+3.","Master","S2","Other","Justyna Ulicka","2022-09-24 17:01"
+"C5","Logowanie - poprawne dane","Justyna Ulicka","2022-09-24 16:42","","","High","","Sukienkowo","0","","1. Na g&oacute;rze po lewej stronie kliknij Logowanie, Rejestracja
+Expected Result:
+Przeniesienie do strony logowania
+2. W pole login wpisz ""tester""
+Expected Result:
+W polu login wyświetla się wpisany login
+3. W pole hasło wpisz ""Projekt""
+Expected Result:
+W polu hasło pojawia się odpowiednia ilość kropek
+4. Kliknij przycisk Zaloguj
+Expected Result:
+Przekierowanie do strony gł&oacute;wnej jako zalogowany użytkownik","1. 
+2. 
+3. 
+4.","Master","S2","Functional","Justyna Ulicka","2022-09-24 17:01"
+"C6","Logowanie - puste pola","Justyna Ulicka","2022-09-24 16:48","","","High","","Sukienkowo","0","","1. Na g&oacute;rze po lewej stronie kliknij ""Logowanie, Rejestracja""
+Expected Result:
+Przeniesienie do strony logowania
+2. Przy pustych polach ""login"" i ""hasło"" kliknij przycisk ""zaloguj""
+Expected Result:
+Alert o niewypełnieniu wymaganych p&oacute;l","1. 
+2.","Master","S2","Functional","Justyna Ulicka","2022-09-24 16:48"
+"C7","Logowanie - niepoprawne dane","Justyna Ulicka","2022-09-24 16:53","","","High","","Sukienkowo","0","","1. Na g&oacute;rze po lewej stronie kliknij Logowanie, Rejestracja
+Expected Result:
+Przeniesienie do strony logowania
+2. W pole login wpisz ""t3st3r""
+Expected Result:
+W polu login wyświetla się wpisany login
+3. W pole hasło wpisz ""Projekt1234""
+Expected Result:
+W polu hasło pojawia się odpowiednia ilość kropek
+4. Kliknij przycisk Zaloguj
+Expected Result:
+Pojawia się alert o braku konta na podane dane","1. 
+2. 
+3. 
+4.","Master","S2","Functional","Justyna Ulicka","2022-09-24 17:02"
+"C8","Dodanie produktu do zakładki ulubione","Justyna Ulicka","2022-09-24 17:13","","","Medium","","Sukienkowo","0","","1. Kliknij na serce znajdujące się w prawym g&oacute;rnym rogu zdjęcia przedstawiającego produkt
+
+![](index.php?/attachments/get/3080779b-70d7-4615-9faa-721764bdef2e)&nbsp;&nbsp; 
+Expected Result:
+Serce wypełnia się czerwonym kolorem
+
+![](index.php?/attachments/get/6af9810e-9cb6-4d6d-8f34-3ef96da89bb0)&nbsp;&nbsp; 
+2. Przejdź do zakładki polubione
+Expected Result:
+Wyświetla się produkt kt&oacute;ry dodaliśmy do listy ulubionych","1. 
+2.","Master","S2","Functional","Justyna Ulicka","2022-09-24 17:17"
+"C9","Usunięcie produktu z zakładki polunione","Justyna Ulicka","2022-09-24 17:30","","","Low","","Sukienkowo","0","","1. Kliknij zakładkę polubione
+Expected Result:
+Przeniesienie na stronę https://sukienkowo.com/obserwowane/391
+2. Odznacz sukienkę z ulubionych klikając serce w prawym rogu zdjęcia produktu
+Expected Result:
+Produkt znika z sekcji polubionych","1. 
+2.","Master","S2","Functional","Justyna Ulicka","2022-09-24 17:30"
+"C10","Dodanie produktu do koszyka","Justyna Ulicka","2022-09-24 17:46","","","Critical","","Sukienkowo","0","","1. Kliknij zakładkę sukienki
+Expected Result:
+Przeniesienie do strony z sukienkami
+2. Kliknij zdjęcie produktu
+Expected Result:
+Przeniesienie na stronę danego produktu
+3. Wybierz rozmiar sukienki 
+Expected Result:
+W oknie z rozmiarem pojawiła się wybrana wartość 
+
+![](index.php?/attachments/get/ea0e04a7-e8fe-43f1-a381-a034d48730b4)&nbsp; 
+4. Kliknij przycisk kup teraz
+Expected Result:
+Przeniesienie do koszyka gdzie znajduję się wybrany produkt","1. 
+2. 
+3. 
+4.","Master","S2","Other","Justyna Ulicka","2022-09-24 17:58"
+"C11","Usunięcie produktu z koszyka","Justyna Ulicka","2022-09-24 18:04","","","High","","Sukienkowo","0","","1. W prawym g&oacute;rnym rogu kliknij koszyk 
+Expected Result:
+Przeniesienie na stronę https://sukienkowo.com/koszyk/
+2. Kliknij ikonę kosza kt&oacute;ra znajduję się pod rozmiarem 
+Expected Result:
+Produkt został usunięty 
+Wyświetla się komunikat o braku produkt&oacute;w w koszyku","1. 
+2.","Master","S2","Functional","Justyna Ulicka","2022-09-24 18:04"
