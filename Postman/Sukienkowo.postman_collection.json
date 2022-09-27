@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "6e17f2e4-6955-45d6-b644-93ef8adf7edb",
+		"name": "Sukienkowo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21243109"
+	},
+	"item": [
+		{
+			"name": "https://www.google-analytics.com/j/collect?v=1&_v=j97&a=1171727684&t=pageview&_s=1&dl=https://sukienkowo.com/&ul=pl-pl&de=UTF-8&dt=Sklep z sukienkami Najmodniejsze sukienki na wesele 2022&sd=24-bit&sr=820x1180&vp=820x1180&je=0&_u=QACAAUABAAAAAC~&jid=18707",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.google-analytics.com/j/collect?v=1&_v=j97&a=1171727684&t=pageview&_s=1&dl=https://sukienkowo.com/&ul=pl-pl&de=UTF-8&dt=Sklep z sukienkami Najmodniejsze sukienki na wesele 2022&sd=24-bit&sr=820x1180&vp=820x1180&je=0&_u=QACAAUABAAAAAC~&jid=1870771873&gjid=2072923811&cid=789610939.1664123504&tid=UA-167989980-1&_gid=1234194522.1664313176&_r=1&gtm=2ou9q0&gcs=G11-&z=141206995",
+					"protocol": "https",
+					"host": [
+						"www",
+						"google-analytics",
+						"com"
+					],
+					"path": [
+						"j",
+						"collect"
+					],
+					"query": [
+						{
+							"key": "v",
+							"value": "1"
+						},
+						{
+							"key": "_v",
+							"value": "j97"
+						},
+						{
+							"key": "a",
+							"value": "1171727684"
+						},
+						{
+							"key": "t",
+							"value": "pageview"
+						},
+						{
+							"key": "_s",
+							"value": "1"
+						},
+						{
+							"key": "dl",
+							"value": "https://sukienkowo.com/"
+						},
+						{
+							"key": "ul",
+							"value": "pl-pl"
+						},
+						{
+							"key": "de",
+							"value": "UTF-8"
+						},
+						{
+							"key": "dt",
+							"value": "Sklep z sukienkami Najmodniejsze sukienki na wesele 2022"
+						},
+						{
+							"key": "sd",
+							"value": "24-bit"
+						},
+						{
+							"key": "sr",
+							"value": "820x1180"
+						},
+						{
+							"key": "vp",
+							"value": "820x1180"
+						},
+						{
+							"key": "je",
+							"value": "0"
+						},
+						{
+							"key": "_u",
+							"value": "QACAAUABAAAAAC~"
+						},
+						{
+							"key": "jid",
+							"value": "1870771873"
+						},
+						{
+							"key": "gjid",
+							"value": "2072923811"
+						},
+						{
+							"key": "cid",
+							"value": "789610939.1664123504"
+						},
+						{
+							"key": "tid",
+							"value": "UA-167989980-1"
+						},
+						{
+							"key": "_gid",
+							"value": "1234194522.1664313176"
+						},
+						{
+							"key": "_r",
+							"value": "1"
+						},
+						{
+							"key": "gtm",
+							"value": "2ou9q0"
+						},
+						{
+							"key": "gcs",
+							"value": "G11-"
+						},
+						{
+							"key": "z",
+							"value": "141206995"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
