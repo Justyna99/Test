@@ -1,0 +1,7 @@
+Feature: Funkcjonalność - logowanie do aplikacji
+Scenario: Użytkownik może zalogować się do konta podając prawidlowe dane
+Given Użytkownik jest na stronie logowania
+When Wpisuję "nazwa_konta" w polu login
+And Wpisuję "hasło_do_konta" w polu hasło_do_konta
+And Klikam przycisk "Zaloguj"
+Then Strona główna jest widoczna
